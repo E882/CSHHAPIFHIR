@@ -23,7 +23,7 @@ services:
     container_name: pgadmin
     restart: always
     environment:
-      PGADMIN_DEFAULT_EMAIL: "cshe882@chs.org.tw"
+      PGADMIN_DEFAULT_EMAIL: "cshe882@csh.org.tw"
       PGADMIN_DEFAULT_PASSWORD: "admin"
     ports:
       - "5050:80"
